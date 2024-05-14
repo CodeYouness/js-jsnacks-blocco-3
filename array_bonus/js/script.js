@@ -2,5 +2,9 @@ const firstArray = ['banana', 'mela', 'pera', 'ciliegia', 'arancia', 'mandarino'
 const secondArray = ['pesca', 'cocomero']
 
 for (let i = 0; i < (math.abs((firstArray.lenght) - (secondArray.length))); i++) {
+    if (firstArray.length < secondArray.lenght) {
 
+    } else if (firstArray.length > secondArray.lenght) {
+
+    }
 }
