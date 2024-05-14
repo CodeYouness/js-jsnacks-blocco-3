@@ -17,6 +17,6 @@ chiedo all utente un numero (cioe quanti elementi deve contenere il contenitore)
     ripeto per lo stesso numero inserito dall'utente:
         genero un numero casuale da 1 a 100 e lo aggiungo al contenitore
 
-        se il numero di ripetizioni è minore o uguale a 5 allora stampo il numero
+        se il numero di ripetizioni mancanti è minore o uguale a 5 allora stampo il numero
         altrimenti non lo faccio, e continuo con le ripetizioni
     
