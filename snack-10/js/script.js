@@ -14,7 +14,6 @@ if (array1.length < array2.length) {
     arrayShort = array2
 }
 
-console.log(array1, array2, arrayShort, arrayLong)
 
 while (arrayShort.length < arrayLong.length) {
     let casualNumber = Math.floor(Math.random() * 10) + 1;
