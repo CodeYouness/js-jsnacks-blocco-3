@@ -16,7 +16,7 @@ if (array1.length < array2.length) {
 
 console.log(array1, array2, arrayShort, arrayLong)
 
-while (arrayShort < arrayLong) {
+while (arrayShort.length < arrayLong.length) {
     let casualNumber = Math.floor(Math.random() * 10) + 1;
     arrayShort.push(casualNumber)
 }
