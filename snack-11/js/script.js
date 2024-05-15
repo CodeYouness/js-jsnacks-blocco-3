@@ -6,7 +6,10 @@ let sum = 0
 
 while (sum < 50) {
     let userNumber = Number.parseInt(prompt('type a number'), 10);
-    arrayNumbers.push(userNumber);
-    sum += userNumber;
+    if (Number.isNaN(userNumber) !== true) {
+        arrayNumbers.push(userNumber);
+        sum += userNumber;
+    }
 }
+
 console.log(sum, arrayNumbers)
