@@ -11,7 +11,7 @@ function result(primaParola, secondaParola) {
     } else if (primaParola.length > secondaParola.length) {
         return primaParola
     } else {
-        return (primaParola, secondaParola)
+        return [primaParola, secondaParola]
     }
 }
 let risultato = result(firstWord, secondWord)
