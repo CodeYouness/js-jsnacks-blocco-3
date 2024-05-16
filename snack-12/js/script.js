@@ -7,10 +7,12 @@ const secondWord = prompt('dimmi un altra parola')
 
 function result(firstWord, secondWord) {
     if (firstWord.length < secondWord.length) {
-        console.log(secondWord)
+        return secondWord
     } else if (firstWord.length > secondWord.length) {
-        console.log(firstWord)
+        return firstWord
     } else {
-        console.log(firstWord, secondWord)
+        return (firstWord, secondWord)
     }
 }
+let risultato = result
+console.log(risultato)
