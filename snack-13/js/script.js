@@ -3,8 +3,11 @@
 function invertNumber(number) {
     let invertedNumber = []
     for (let i = 0; i < number.length; i++) {
-        invertNumber.push(number[i])
+        invertedNumber.push(number[i])
+        console.log(number[i])
     }
+    return invertedNumber
 }
 
 const userNumber = Number.parseInt(prompt('insert your number'), 10);
+console.log(invertNumber(userNumber))
