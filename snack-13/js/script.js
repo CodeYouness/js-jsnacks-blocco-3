@@ -2,9 +2,10 @@
 
 function invertNumber(number) {
     let invertedNumber = []
-    for (let i = 0; i < number.length; i++) {
-        invertedNumber.push(number[i])
-        console.log(number[i])
+    let numberString = number.toString();
+    for (let i = 0; i < numberString.length; i++) {
+        invertedNumber.push(numberString[i])
+        console.log(numberString[i])
     }
     return invertedNumber
 }
