@@ -5,14 +5,14 @@
 const firstWord = prompt('dimmi una parola')
 const secondWord = prompt('dimmi un altra parola')
 
-function result(firstWord, secondWord) {
-    if (firstWord.length < secondWord.length) {
-        return secondWord
-    } else if (firstWord.length > secondWord.length) {
-        return firstWord
+function result(primaParola, secondaParola) {
+    if (primaParola.length < secondaParola.length) {
+        return secondaParola
+    } else if (primaParola.length > secondaParola.length) {
+        return primaParola
     } else {
-        return (firstWord, secondWord)
+        return (primaParola, secondaParola)
     }
 }
-let risultato = result
+let risultato = result(firstWord, secondWord)
 console.log(risultato)
