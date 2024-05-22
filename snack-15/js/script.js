@@ -13,5 +13,7 @@ let palla = {
 const userWeight = prompt('what\s the weight of the ball?');
 
 palla.weight = Number(userWeight);
-
+if (isNaN(palla.weigth)) {
+    const userWeight = prompt('what\s the weight of the ball?');
+}
 console.log(palla)
