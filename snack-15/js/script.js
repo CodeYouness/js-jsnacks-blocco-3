@@ -10,4 +10,8 @@ let palla = {
     weight: 10
 }
 
-const userWeight = prompt('what\s the weight of the ball?')
+const userWeight = prompt('what\s the weight of the ball?');
+
+palla.weight = number(userWeight);
+
+console.log(palla)
