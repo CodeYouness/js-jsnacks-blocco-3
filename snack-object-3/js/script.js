@@ -62,5 +62,7 @@ family.forEach((persona, index) => {
         drivePossibility = 'si'
     }
 
-    console.log(` ciao ${persona.nameFamily} ${persona.surName} , puoi guidare? secondo me ${drivePossibility}`)
+    welcomeFamily.push(` ciao ${persona.nameFamily} ${persona.surName} , puoi guidare? secondo me ${drivePossibility}`)
 })
+
+console.log(welcomeFamily)
