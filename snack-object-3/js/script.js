@@ -57,9 +57,9 @@ const family = [{
 const welcomeFamily = []
 
 family.forEach((persona, index) => {
-    let drivePossibility = false
+    let drivePossibility = 'no'
     if (persona.years >= 18) {
-        drivePossibility = true
+        drivePossibility = 'si'
     }
 
     console.log(` ciao ${persona.nameFamily} ${persona.surName} , puoi guidare? secondo me ${drivePossibility}`)
