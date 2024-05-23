@@ -87,11 +87,19 @@ const diesel = automobili.filter((auto) => {
     return (auto.alimentazione === 'diesel')
 })
 
+automobili.forEach((auto, index, automobili) => {
+    if (automobili.alimentazione === 'benzina' || automobili.alimentazione === 'diesel') {
+
+    } else {
+        automobili.push(auto)
+    }
+})
 
 
 
 
-console.log(benzina, diesel)
+
+console.log(benzina, diesel, extraCar)
 
 
 
