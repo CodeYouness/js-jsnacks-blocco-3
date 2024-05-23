@@ -78,7 +78,20 @@ const automobili = [{
     alimentazione: 'metano'
 }];
 
-console.log(automobili)
+
+const benzina = automobili.filter((auto) => {
+    return (auto.alimentazione === 'benzina')
+})
+
+const diesel = automobili.filter((auto) => {
+    return (auto.alimentazione === 'diesel')
+})
+
+
+
+
+
+console.log(benzina, diesel)
 
 
 
