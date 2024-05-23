@@ -53,3 +53,14 @@ const family = [{
     surName: 'moccia',
     years: 100
 },]
+
+const welcomeFamily = []
+
+family.forEach((persona, index) => {
+    let drivePossibility = false
+    if (persona.years >= 18) {
+        drivePossibility = true
+    }
+
+    console.log(` ciao ${persona.nameFamily} ${persona.surName} , puoi guidare? secondo me ${drivePossibility}`)
+})
