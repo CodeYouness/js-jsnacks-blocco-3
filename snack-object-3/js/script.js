@@ -57,12 +57,16 @@ const family = [{
 const welcomeFamily = []
 
 family.forEach((persona, index) => {
-    let drivePossibility = 'no'
+    let drivePossibility = 'non può guidare'
     if (persona.years >= 18) {
-        drivePossibility = 'si'
+        drivePossibility = 'può guidare'
     }
 
-    welcomeFamily.push(` ciao ${persona.nameFamily} ${persona.surName} , puoi guidare? secondo me ${drivePossibility}`)
+    welcomeFamily.push({
+        nameFamily: persona.nameFamily,
+        surName: persona.surName,
+        canIDrive: drivePossibility
+    })
 })
 
 console.log(welcomeFamily)
