@@ -63,9 +63,7 @@ family.forEach((persona, index) => {
     }
 
     welcomeFamily.push({
-        nameFamily: persona.nameFamily,
-        surName: persona.surName,
-        canIDrive: drivePossibility
+        welcome: `${persona.nameFamily} ${persona.surName}, tu ${drivePossibility}`
     })
 })
 
