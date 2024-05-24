@@ -33,8 +33,15 @@ const variousTab = [
 
 function remover(...variousTab) {
     variousTab.forEach((computer, i) => {
+
+        if (computer.tab.indexOf("Facebook") == computer.activeTab) {
+            computer.activeTab = computer.activeTab + 1
+        }
+
         if (computer.tab.includes("Facebook")) {
+
             computer.tab.splice(computer.tab.indexOf("Facebook"), 1)
+
         }
 
         console.log(computer)
