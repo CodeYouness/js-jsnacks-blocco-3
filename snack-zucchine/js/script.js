@@ -65,3 +65,11 @@ function somma(...zucchine) {
 
 const risultato = somma(...zucchine)
 console.log(risultato)
+
+const zucchinePiccole = []
+const zucchineGrandi = []
+zucchine.forEach((...zucchina) => {
+    if (parseInt(zucchina.lunghezza) > 8) {
+
+    }
+})
